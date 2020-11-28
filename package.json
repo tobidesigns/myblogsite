@@ -1,11 +1,11 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "the-power-90",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
+    "deploy": "gh-pages -d dist"
     "server": "hexo server"
   },
   "hexo": {
@@ -28,5 +28,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://tobidesigns.github.io/myblogsite",
   "description": ""
 }
